@@ -28,7 +28,7 @@ reader = easyocr.Reader(['en'])
 
 # Displaying sample image
 
-image = cv2.imread('C:/Users/Vaibhav Bisht/anaconda3/Sample.jpg')
+image = cv2.imread('Image Path')
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB )
 plt.imshow(image)
 
@@ -38,7 +38,7 @@ plt.imshow(image)
 
 # List, format - [bounding box coordinates, text, confidence score]
 
-output = reader.readtext('C:/Users/Vaibhav Bisht/anaconda3/Sample.jpg')
+output = reader.readtext('Image Path')
 output
 
 
